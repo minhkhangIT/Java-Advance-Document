@@ -8,9 +8,11 @@ Learn advance java
 - ClassNotFoundException is a checked exception in Java that occurs when the JVM tries to load a particular class but does not find it in the classpath.
 - RuntimeException is the superclass of those exceptions that can be thrown during the normal operation of the Java Virtual Machine.
 
+ ```java
  try{
       int data=100/0;
  }catch(Exception a){
-            System.out.println(a);
-            System.out.println("rest of the code...");
+        System.out.println(a);
+        System.out.println("rest of the code...");
   }
+```
